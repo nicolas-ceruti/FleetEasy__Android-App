@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Maps">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/custom_edittext"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sua próxima Coleta"
+                android:textAlignment="center"
+                android:textColor="@color/blue2"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textViewResponse"
+                android:layout_width="match_parent"
+                android:layout_height="406dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edittext"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="@color/blue2"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnCompartilhar"
+        android:layout_width="357dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/blue2"
+        android:text="Compartilhar"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:cornerRadius="20dp" />
+
+</LinearLayout>
