@@ -1,4 +1,4 @@
-# ITracker Android
+# FleetEasy Android
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=development&color=GREEN&style=for-the-badge)
 
 App that works as an <a href='https://github.com/nicolas-ceruti/ITracker-Web'>Itracker-Web<a> extension
